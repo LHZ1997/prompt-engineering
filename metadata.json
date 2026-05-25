@@ -1,0 +1,450 @@
+{
+  "generated_at": "2026-05-25T11:29:40.703670",
+  "version": "1.0.0",
+  "prompts": [
+    {
+      "id": "intent-classification-risk",
+      "path": "prompts/ai-development/intent-classification-risk.md",
+      "category": "ai-development",
+      "tags": [
+        "content-safety",
+        "classification",
+        "analysis",
+        "conversation"
+      ],
+      "author": "prompt-engineering-hub",
+      "date": "2024-01-15",
+      "version": "1.0.0",
+      "model_compatibility": [
+        "gpt-4",
+        "claude-3",
+        "gemini-pro"
+      ],
+      "description": "对商业智能体对话内容进行风险意图分类识别，标注违规内容并按风险类型输出结构化结果"
+    },
+    {
+      "id": "intent-recognition-risk",
+      "path": "prompts/ai-development/intent-recognition-risk.md",
+      "category": "ai-development",
+      "tags": [
+        "content-safety",
+        "classification",
+        "analysis"
+      ],
+      "author": "prompt-engineering-hub",
+      "date": "2024-01-15",
+      "version": "1.0.0",
+      "model_compatibility": [
+        "gpt-4",
+        "claude-3",
+        "gemini-pro"
+      ],
+      "description": "对用户输入进行精准意图识别，判断是否存在违规危险意图并输出风险分类"
+    },
+    {
+      "id": "model-evaluation",
+      "path": "prompts/ai-development/model-evaluation.md",
+      "category": "ai-development",
+      "tags": [
+        "evaluation",
+        "ai-development",
+        "analysis"
+      ],
+      "author": "prompt-engineering-hub",
+      "date": "2024-01-15",
+      "version": "1.0.0",
+      "model_compatibility": [
+        "gpt-4",
+        "claude-3",
+        "gemini-pro"
+      ],
+      "description": "设计模型评估方案，对比不同模型在特定任务上的表现"
+    },
+    {
+      "id": "prompt-optimization",
+      "path": "prompts/ai-development/prompt-optimization.md",
+      "category": "ai-development",
+      "tags": [
+        "optimization",
+        "ai-development",
+        "reasoning"
+      ],
+      "author": "prompt-engineering-hub",
+      "date": "2024-01-15",
+      "version": "1.0.0",
+      "model_compatibility": [
+        "gpt-4",
+        "claude-3",
+        "gemini-pro"
+      ],
+      "description": "分析并优化现有 Prompt，提升输出质量和稳定性"
+    },
+    {
+      "id": "csv-insights",
+      "path": "prompts/data-analysis/csv-insights.md",
+      "category": "data-analysis",
+      "tags": [
+        "analysis",
+        "data-analysis",
+        "extraction"
+      ],
+      "author": "prompt-engineering-hub",
+      "date": "2024-01-15",
+      "version": "1.0.0",
+      "model_compatibility": [
+        "gpt-4",
+        "claude-3",
+        "gemini-pro"
+      ],
+      "description": "分析 CSV 数据并提取关键洞察、趋势和异常"
+    },
+    {
+      "id": "sql-generation",
+      "path": "prompts/data-analysis/sql-generation.md",
+      "category": "data-analysis",
+      "tags": [
+        "generation",
+        "sql",
+        "data-analysis"
+      ],
+      "author": "prompt-engineering-hub",
+      "date": "2024-01-15",
+      "version": "1.0.0",
+      "model_compatibility": [
+        "gpt-4",
+        "claude-3",
+        "gemini-pro",
+        "deepseek-coder"
+      ],
+      "description": "根据自然语言需求生成正确、高效的 SQL 查询"
+    },
+    {
+      "id": "prd-generator",
+      "path": "prompts/product-management/prd-generator.md",
+      "category": "product-management",
+      "tags": [
+        "generation",
+        "product-management",
+        "planning"
+      ],
+      "author": "prompt-engineering-hub",
+      "date": "2024-01-15",
+      "version": "1.0.0",
+      "model_compatibility": [
+        "gpt-4",
+        "claude-3",
+        "gemini-pro"
+      ],
+      "description": "根据产品需求描述生成结构化的 PRD 文档"
+    },
+    {
+      "id": "user-story-creation",
+      "path": "prompts/product-management/user-story-creation.md",
+      "category": "product-management",
+      "tags": [
+        "generation",
+        "product-management",
+        "planning"
+      ],
+      "author": "prompt-engineering-hub",
+      "date": "2024-01-15",
+      "version": "1.0.0",
+      "model_compatibility": [
+        "gpt-4",
+        "claude-3",
+        "gemini-pro"
+      ],
+      "description": "根据功能描述生成符合 INVEST 原则的用户故事"
+    },
+    {
+      "id": "code-review",
+      "path": "prompts/software-development/code-review.md",
+      "category": "software-development",
+      "tags": [
+        "code-review",
+        "python",
+        "best-practices"
+      ],
+      "author": "prompt-engineering-hub",
+      "date": "2024-01-15",
+      "version": "1.0.0",
+      "model_compatibility": [
+        "gpt-4",
+        "claude-3",
+        "gemini-pro",
+        "deepseek-coder"
+      ],
+      "description": "对代码进行全面的代码审查，指出潜在问题并给出改进建议"
+    },
+    {
+      "id": "docstring-generation",
+      "path": "prompts/software-development/docstring-generation.md",
+      "category": "software-development",
+      "tags": [
+        "documentation",
+        "code-generation",
+        "software-development"
+      ],
+      "author": "prompt-engineering-hub",
+      "date": "2024-01-15",
+      "version": "1.0.0",
+      "model_compatibility": [
+        "gpt-4",
+        "claude-3",
+        "gemini-pro",
+        "deepseek-coder"
+      ],
+      "description": "为函数、类和模块生成规范的文档字符串"
+    },
+    {
+      "id": "refactor-suggestion",
+      "path": "prompts/software-development/refactor-suggestion.md",
+      "category": "software-development",
+      "tags": [
+        "refactoring",
+        "code-quality",
+        "software-development"
+      ],
+      "author": "prompt-engineering-hub",
+      "date": "2024-01-15",
+      "version": "1.0.0",
+      "model_compatibility": [
+        "gpt-4",
+        "claude-3",
+        "gemini-pro",
+        "deepseek-coder"
+      ],
+      "description": "分析代码并给出重构建议，提升可读性和可维护性"
+    },
+    {
+      "id": "test-case-generation",
+      "path": "prompts/software-development/test-case-generation.md",
+      "category": "software-development",
+      "tags": [
+        "testing",
+        "code-generation",
+        "software-development"
+      ],
+      "author": "prompt-engineering-hub",
+      "date": "2024-01-15",
+      "version": "1.0.0",
+      "model_compatibility": [
+        "gpt-4",
+        "claude-3",
+        "gemini-pro",
+        "deepseek-coder"
+      ],
+      "description": "根据代码或需求生成全面的测试用例，覆盖正常、边界和异常情况"
+    },
+    {
+      "id": "blog-outline",
+      "path": "prompts/writing/blog-outline.md",
+      "category": "writing",
+      "tags": [
+        "generation",
+        "writing",
+        "planning"
+      ],
+      "author": "prompt-engineering-hub",
+      "date": "2024-01-15",
+      "version": "1.0.0",
+      "model_compatibility": [
+        "gpt-4",
+        "claude-3",
+        "gemini-pro"
+      ],
+      "description": "根据主题生成结构清晰、逻辑连贯的博客文章大纲"
+    },
+    {
+      "id": "email-drafting",
+      "path": "prompts/writing/email-drafting.md",
+      "category": "writing",
+      "tags": [
+        "generation",
+        "writing",
+        "business"
+      ],
+      "author": "prompt-engineering-hub",
+      "date": "2024-01-15",
+      "version": "1.0.0",
+      "model_compatibility": [
+        "gpt-4",
+        "claude-3",
+        "gemini-pro"
+      ],
+      "description": "根据不同场景生成得体的商务邮件"
+    },
+    {
+      "id": "social-media-post",
+      "path": "prompts/writing/social-media-post.md",
+      "category": "writing",
+      "tags": [
+        "generation",
+        "writing",
+        "social-media"
+      ],
+      "author": "prompt-engineering-hub",
+      "date": "2024-01-15",
+      "version": "1.0.0",
+      "model_compatibility": [
+        "gpt-4",
+        "claude-3",
+        "gemini-pro"
+      ],
+      "description": "为不同社交媒体平台生成适配的文案内容"
+    }
+  ],
+  "templates": [
+    {
+      "id": "data-extraction",
+      "path": "templates/analysis/data-extraction.md",
+      "category": "analysis",
+      "tags": [
+        "extraction",
+        "structured-output"
+      ],
+      "author": "prompt-engineering-hub",
+      "date": "2024-01-15",
+      "version": "1.0.0",
+      "model_compatibility": [
+        "gpt-4",
+        "claude-3",
+        "gemini-pro"
+      ],
+      "description": "从非结构化文本中提取指定字段的结构化数据"
+    },
+    {
+      "id": "root-cause-analysis",
+      "path": "templates/analysis/root-cause-analysis.md",
+      "category": "analysis",
+      "tags": [
+        "analysis",
+        "reasoning",
+        "debugging"
+      ],
+      "author": "prompt-engineering-hub",
+      "date": "2024-01-15",
+      "version": "1.0.0",
+      "model_compatibility": [
+        "gpt-4",
+        "claude-3",
+        "gemini-pro"
+      ],
+      "description": "使用 5 Whys 或鱼骨图方法对问题进行根因分析"
+    },
+    {
+      "id": "interview-simulation",
+      "path": "templates/conversation/interview-simulation.md",
+      "category": "conversation",
+      "tags": [
+        "interview",
+        "simulation",
+        "conversation"
+      ],
+      "author": "prompt-engineering-hub",
+      "date": "2024-01-15",
+      "version": "1.0.0",
+      "model_compatibility": [
+        "gpt-4",
+        "claude-3",
+        "gemini-pro"
+      ],
+      "description": "模拟技术面试场景，扮演面试官进行问答和反馈"
+    },
+    {
+      "id": "roleplay-dialogue",
+      "path": "templates/conversation/roleplay-dialogue.md",
+      "category": "conversation",
+      "tags": [
+        "roleplay",
+        "conversation",
+        "simulation"
+      ],
+      "author": "prompt-engineering-hub",
+      "date": "2024-01-15",
+      "version": "1.0.0",
+      "model_compatibility": [
+        "gpt-4",
+        "claude-3",
+        "gemini-pro"
+      ],
+      "description": "角色扮演对话模板，模拟特定角色与用户进行互动"
+    },
+    {
+      "id": "code-generation",
+      "path": "templates/generation/code-generation.md",
+      "category": "generation",
+      "tags": [
+        "generation",
+        "code-generation",
+        "software-development"
+      ],
+      "author": "prompt-engineering-hub",
+      "date": "2024-01-15",
+      "version": "1.0.0",
+      "model_compatibility": [
+        "gpt-4",
+        "claude-3",
+        "gemini-pro",
+        "deepseek-coder"
+      ],
+      "description": "根据需求生成符合规范的代码，包含注释和测试建议"
+    },
+    {
+      "id": "content-generation",
+      "path": "templates/generation/content-generation.md",
+      "category": "generation",
+      "tags": [
+        "generation",
+        "writing"
+      ],
+      "author": "prompt-engineering-hub",
+      "date": "2024-01-15",
+      "version": "1.0.0",
+      "model_compatibility": [
+        "gpt-4",
+        "claude-3",
+        "gemini-pro"
+      ],
+      "description": "基于主题和要求生成各类内容（文章、文案、报告等）"
+    },
+    {
+      "id": "multi-hop-qa",
+      "path": "templates/reasoning/multi-hop-qa.md",
+      "category": "reasoning",
+      "tags": [
+        "reasoning",
+        "qa",
+        "analysis"
+      ],
+      "author": "prompt-engineering-hub",
+      "date": "2024-01-15",
+      "version": "1.0.0",
+      "model_compatibility": [
+        "gpt-4",
+        "claude-3",
+        "gemini-pro"
+      ],
+      "description": "多跳问答模板，适用于需要整合多个信息源才能回答的复杂问题"
+    },
+    {
+      "id": "step-by-step-reasoning",
+      "path": "templates/reasoning/step-by-step-reasoning.md",
+      "category": "reasoning",
+      "tags": [
+        "reasoning",
+        "analysis",
+        "chain-of-thought"
+      ],
+      "author": "prompt-engineering-hub",
+      "date": "2024-01-15",
+      "version": "1.0.0",
+      "model_compatibility": [
+        "gpt-4",
+        "claude-3",
+        "gemini-pro"
+      ],
+      "description": "引导模型逐步推理，适用于复杂逻辑和数学问题"
+    }
+  ]
+}
